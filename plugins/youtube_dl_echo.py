@@ -239,7 +239,7 @@ async def echo(bot, m: Message):
             uploaded_date = result['uploadDate']
             exp = "^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*"
             sx = re.findall(exp, url)[0][-1]
-            thumb = f"https://i.ytimg.com/vi/{sx}/maxresdefault.jpg"
+            thumb = f"https://telegra.ph/file/f2a74c869d1630793e2d5.jpg"
             wget.download(thumb, yt_thumb_image_path, bar=None)
         except Exception:
             await msg.edit(Presets.NOT_DOWNLOADABLE)
