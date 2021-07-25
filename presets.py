@@ -10,8 +10,7 @@ class Presets(object):
 
 ☞ 𝐒𝐞𝐚𝐫𝐜𝐡 𝐢𝐧𝐥𝐢𝐧𝐞 𝐟𝐚𝐜𝐢𝐥𝐢𝐭𝐲, 𝐨𝐫 𝐩𝐚𝐬𝐭𝐞 𝐭𝐡𝐞 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐥𝐢𝐧𝐤 𝐭𝐨 𝐬𝐭𝐚𝐫𝐭 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠.
 
-𝐉𝐨𝐢𝐧 <a href='https://t.me/my_test_botz'>𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥</a> | 𝐃𝐞𝐯 <a href='https://t.me/Amani_m_h_d'>𝐀𝐦𝐚𝐧𝐢 𝐌𝐮𝐡𝐚𝐦𝐦𝐞𝐝</a>   
-    """
+      <b>📜Quote :</b> <code>ആരും പേടിക്കണ്ട എല്ലാവർക്കും കിട്ടും™️</code>"""
     WELCOME_MSG = "𝐇𝐞𝐥𝐥𝐨... {}\n\n𝐈 𝐂𝐚𝐧 𝐂𝐨𝐧𝐯𝐞𝐫𝐭 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐋𝐢𝐧𝐤𝐬 𝐀𝐬 𝐕𝐢𝐝𝐞𝐨𝐬 𝐀𝐧𝐝 𝐀𝐮𝐝𝐢𝐨𝐬.\n\n𝐒𝐞𝐚𝐫𝐜𝐡 𝐈𝐧𝐥𝐢𝐧𝐞- 𝐬𝐞𝐥𝐞𝐜𝐭 𝐚𝐧𝐝 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝.\n\n🏷 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲<b>: @Amani_m_h_d</b>"
     OPTIONS_TXT = "𝐈 𝐜𝐚𝐧 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐯𝐢𝐝𝐞𝐨𝐬.\n𝐒𝐞𝐚𝐫𝐜𝐡 𝐈𝐧𝐥𝐢𝐧𝐞- 𝐬𝐞𝐥𝐞𝐜𝐭 𝐚𝐧𝐝 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝."
     RESULTS_TXT = "👀 𝐑𝐞𝐬𝐮𝐥𝐭𝐬:"
@@ -56,7 +55,7 @@ class Presets(object):
     """
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | newfilename | username | password"""
-    CUSTOM_CAPTION_UL_FILE = "\xad \xad\n<code>{}</code>\n\n<b>A project of:</b>\n<b><a href='https://t.me/my_test_botz'>Botzhub</a></b>"
+    CUSTOM_CAPTION_UL_FILE = "\xad \xad\n<code>{}</code>\n\n𝐉𝐨𝐢𝐧 <a href='https://t.me/my_test_botz'>𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥</a> | 𝐃𝐞𝐯 <a href='https://t.me/Amani_m_h_d'>𝐀𝐦𝐚𝐧𝐢 𝐌𝐮𝐡𝐚𝐦𝐦𝐞𝐝</a>"
     RCHD_TG_API_LIMIT = "Detected File Size: {}\nSorry. But, I cannot upload files " \
                         "greater than 1.95GB due to Telegram API limitations."
     AD_STRING_TO_REPLACE = "please report this issue on https://yt-dl.org/bug . Make sure you are using the " \
