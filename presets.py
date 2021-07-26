@@ -19,7 +19,7 @@ class Presets(object):
     NOT_AUTH_TXT = "❌ ❌ 𝐘𝐨𝐮 𝐚𝐫𝐞 𝐧𝐨𝐭 𝐚𝐮𝐭𝐡𝐨𝐫𝐢𝐳𝐞𝐝 ❌ ❌"
     DEFAULT_TITLE = "𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 𝐎𝐧 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦"
     DEFAULT_THUMB_URL = "https://telegra.ph/file/4c2fddc54d9ccd22881a8.jpg"
-    DEFAULT_LINK = "https://github.com/amanimuhammed"
+    DEFAULT_LINK = "https://www.instagram.com/invites/contact/?i=sfxujk2fbse2&utm_content=8o49cko"
     DEFAULT_DESCRIPTION = "𝐋𝐢𝐧𝐤: 𝐀𝐦𝐚𝐧𝐢 𝐌𝐮𝐡𝐚𝐦𝐦𝐞𝐝 | 𝐆𝐢𝐭𝐇𝐮𝐛"
     DEV_TITLE = "𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧"
     DEV_THUMB_URL = "https://freepikpsd.com/media/2019/10/software-developer-icon-png-2-Transparent-Images.png"
