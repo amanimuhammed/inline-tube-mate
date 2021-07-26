@@ -12,7 +12,7 @@ async def forcesub(c, m):
         try:
             user = await c.get_chat_member(UPDATE_CHANNEL, m.from_user.id)
             if user.status == "kicked":
-               await m.reply_text("**Hey you are banned 😜**", quote=True)
+               await m.reply_text("<b>Hey you are banned 😜</b>", quote=True)
                return
         except UserNotParticipant:
             buttons = [[InlineKeyboardButton(text='Updates Channel 🔖', url=f"https://t.me/{UPDATE_CHANNEL}")]]
@@ -21,8 +21,8 @@ async def forcesub(c, m):
                     chat_id, msg_id = m.text.split(' ')[1].split('_')
                     buttons.append([InlineKeyboardButton('🔄 Refresh', callback_data=f'refresh+{chat_id}+{msg_id}')])
             await m.reply_text(
-                f"**Hey {m.from_user.mention(style='md')} you need join My updates channel in order to use me 😉**\n\n"
-                "__Press the Following Button to join Now 👇__",
+                f"<b>Hey {m.from_user.mention(style='md')} you need join My updates channel in order to use me 😉</b>\n\n"
+                "<i>Press the Following Button to join Now 👇</i>",
                 reply_markup=InlineKeyboardMarkup(buttons),
                 quote=True
             )
@@ -42,7 +42,7 @@ async def refresh_cb(c, m):
             user = await c.get_chat_member(UPDATE_CHANNEL, m.from_user.id)
             if user.status == "kicked":
                try:
-                   await m.message.edit("**Hey you are banned 😜**")
+                   await m.message.edit("<b>Hey you are banned 😜</b>")
                except:
                    pass
                return
